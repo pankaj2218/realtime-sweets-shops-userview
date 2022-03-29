@@ -1,0 +1,101 @@
+/*{
+    margin: 0%;
+    padding: 0%;
+}*/
+html{
+    background-color: white;
+}
+.backimg{
+    width: 100%;
+    height: 100%;
+    background-image: url(background.jpg);
+}
+#about{
+    color: black;
+
+}
+.sndclass{
+    color:red;
+}
+.thrdclass{
+    color: aqua;
+    background-color: brown;
+}
+.listclass{
+    color: black;
+}
+#frstid{
+    color:black;
+    background-size : 50px;
+    background-color: cadetblue; 
+}
+
+.textCss{
+    width: 100%;
+    line-height: 35px;
+    font-family: 'Supermercado One', cursive;
+    color:#fcf7f7;
+    background-color:#030202;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    text-align: center;
+    float: left;
+    text-align:unset;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+}
+.mainheader{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.mainheader .logo img{
+    width: 250px;
+    height: 250px;
+    padding-left: 60px;
+}
+.mainheader nav{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    direction: rtl;
+}
+ul{
+    list-style-type: square;
+    color:black;
+}
+ol{
+    list-style-type: upper-roman;
+    color: rgb(33, 5, 189);
+}
+#a{
+    color: firebrick;
+}
+#b{
+    color: forestgreen;
+}
+#c{
+    color: fuchsia;
+}
+#d{
+color: maroon;
+}
+#e{
+    color: #09ff00;
+}
+#f{
+    color: darkgreen;
+}
+/*.header{
+    width: 100px;
+    height: 30px;
+    color: black;
+    background-color: #09ff00;
+
+    
+}*/
